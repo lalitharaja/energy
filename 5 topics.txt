@@ -1,0 +1,44 @@
+ 501  git clone https://github.com/Arun413/cloud-garage.git
+  502  ls
+  503  cd cloud-garage
+  504  git branch
+  505  git checkout lalitha
+  506  touch main.py
+  507  ls
+  508  git add .
+  509  git commit -m"commit 1"
+  510  touch text.html
+  511  git add .
+  512  git commit -m"commit 2"
+  513  touch kim.py
+  514  git add .
+  515  git commit -m"commit 3"
+  516  touch style.css
+  517  git add .
+  518  git commit -m"commit 4"
+  519  touch index.html
+  520  git add .
+  521  git commit -m"commit 5"
+  522  ls
+  523  git log
+  524  git reset eadaa58870d672abd1d7f4ce369bd49353db868c
+  525  git status
+  526  git log
+  527  git status
+  528  git commit index.html -m"commit 5"
+  529  ls
+  530  git log
+  531  git status
+  532  touch demo
+  533  git add .
+  534  git status
+  535  git restore --staged demo
+  536  git status
+  537  git log
+  538  git revert 677dfd4c199e4e5d10fa2707afa9204ad24a96e6
+  539  git status
+  540  git log
+  541  git checkout lalitha-feature
+  542  git log
+  543  git rebase -i HEAD~3
+  544  history
